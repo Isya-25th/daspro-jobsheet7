@@ -10,9 +10,9 @@ public class Tugas1_13 {
         int totalTiketTerjual = 0;
         int totalPendapatan = 0;
         while (true) {
-            System.out.print("Masukkan jumlah tiket yang dibeli (ketik 0 untuk keluar): ");
+            System.out.print("Masukkan jumlah tiket yang dibeli (ketik -1 untuk keluar): ");
             int jumlahTiket = sc.nextInt();
-            if (jumlahTiket == 0) {
+            if (jumlahTiket == -1) {
                 break; 
             }
             if (jumlahTiket < 0) {
